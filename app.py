@@ -5,6 +5,7 @@ import string
 from nltk.corpus import stopwords;
 from nltk.stem import PorterStemmer;
 # import sklearn;
+nltk.download('punkt')
 
 ps=PorterStemmer();
 
